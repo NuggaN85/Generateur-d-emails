@@ -1,5 +1,5 @@
 <?php 
-$limit = 5000; 
+$limit = 5000; //Nombre d'emails generer
 $page = '';
 for ($i = 0; $i < $limit; $i++) {
      $page .= generate_emails();
@@ -92,6 +92,6 @@ function generate_emails() {
     $email  = $name. ' <a href="mailto:' . $email . '">' . $email . "</a></br>\n";
     return $email;
 }
-$page .= "Copyright © All rights reserved.";
+$page .= "Copyright © All rights reserved."; //Copyright ou autre chose dans le bas de page
 echo utf8_decode ( $page ); 
 ?>
