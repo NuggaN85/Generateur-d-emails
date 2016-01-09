@@ -1,6 +1,5 @@
 <?php 
 /*!
-* protectionantiplagiat init v1.0
 * Dev: NuggaN85
 * Github: NuggaN85
 * Twitter: @NuggaN85
