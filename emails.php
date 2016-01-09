@@ -1,11 +1,4 @@
 <?php 
-/*!
-* Dev: NuggaN85
-* Github: NuggaN85
-* Twitter: @NuggaN85
-* Copyright © 2015 All rights reserved.
-* Licensed under CC BY 3.0
-*/
 $limit = 5000; //Nombre d'emails generer
 $page = '';
 for ($i = 0; $i < $limit; $i++) {
